@@ -1,0 +1,259 @@
+[
+  {
+    "uri": "features/specs/acessar_site/acessar_site.feature",
+    "id": "acessar-site",
+    "keyword": "Funcionalidade",
+    "name": "Acessar site",
+    "description": "  Sendo um usuário\n  Quero acessar o site\n  Para poder realizar compras",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@acessar_site",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "acessar-site;acessar-site",
+        "keyword": "Cenário",
+        "name": "Acessar site",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@acessar_site",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23400
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18700
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesse a home",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/acessar_site/acessar_site.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3887159600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99318900
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/specs/produto/produto.feature",
+    "id": "adicionar-produto-ao-carrinho,-pelo-departamento",
+    "keyword": "Funcionalidade",
+    "name": "Adicionar produto ao carrinho, pelo departamento",
+    "description": "    Sendo um usuário\n    Quero adicionar um produto ao carrinho\n    Para realizar uma compra com meus pontos",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@adicionar_produto",
+        "line": 3
+      }
+    ],
+    "elements": [
+      {
+        "id": "adicionar-produto-ao-carrinho,-pelo-departamento;adiciona-produto-ao-carrinho;;2",
+        "keyword": "Esquema do Cenário",
+        "name": "Adiciona produto ao carrinho",
+        "description": "",
+        "line": 16,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@adicionar_produto",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18800
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15900
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesse a home",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/acessar_site/acessar_site.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 447597700
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "adicionar o produto ao carrinho pelo departamento \"Com Produtos\" e categoria \"Infantil\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/produto/produto.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8502706000
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo ver o produto no carrinho",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/produto/produto.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6273313300
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109456900
+            }
+          }
+        ]
+      },
+      {
+        "id": "adicionar-produto-ao-carrinho,-pelo-departamento;adiciona-produto-ao-carrinho;;3",
+        "keyword": "Esquema do Cenário",
+        "name": "Adiciona produto ao carrinho",
+        "description": "",
+        "line": 17,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@adicionar_produto",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18500
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que acesse a home",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/acessar_site/acessar_site.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325174100
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "adicionar o produto ao carrinho pelo departamento \"Com Produtos\" e categoria \"Esporte e Lazer\"",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/produto/produto.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6210653800
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo ver o produto no carrinho",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/produto/produto.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7284418900
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.5.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113238700
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
