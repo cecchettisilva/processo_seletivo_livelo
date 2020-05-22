@@ -39,7 +39,7 @@ $ bundle install --jobs 8
 
  3. Executando o cenário:
 
-    - (Acessar o site da Livelo;)
+    - Acessar o site da Livelo;
     - Buscar um produto;
     - Adicionar o produto no carrinho.
 
