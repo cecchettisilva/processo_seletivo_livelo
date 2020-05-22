@@ -39,9 +39,9 @@ $ bundle install --jobs 8
 
  3. Executando o cenário:
 
-    – Acessar o site da Livelo;
-    – Buscar um produto;
-    – Adicionar o produto no carrinho.
+    3.1 - Acessar o site da Livelo;
+    3.2 - Buscar um produto;
+    3.4 - Adicionar o produto no carrinho.
 
 Depois de todos os pacotes serem instalados corretamente, podemos executar a interface de testes:
 ```
