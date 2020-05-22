@@ -1,7 +1,7 @@
 <div>
     <p  align="center">
     	<a>
-    	    <img  alt="Livelo"  src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogodownload.org%2Flivelo-logo%2F&psig=AOvVaw3wO0YU_kvSdHAkI7P0cRFm&ust=1590267252349000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjptKetyOkCFQAAAAAdAAAAABAD"  width="100">
+    	    <img  alt="Livelo"  src="https://logodownload.org/wp-content/uploads/2017/11/livelo-logo.png"  width="100">
     	</a>
     </p>
 </div>
