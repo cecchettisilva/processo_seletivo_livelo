@@ -13,7 +13,52 @@
 </div>
   
 
-## Usando pela primeira vez
+## Instalando Ruby
+
+1. Baixar instalador
+
+```
+$ https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.6.6-1/rubyinstaller-devkit-2.6.6-1-x64.exe
+```
+
+2. Selecionar as opções
+
+    - Add Ruby executables to your PATH
+    - Associate .rb and .rbw files with this Ruby installation 
+    - Seguir com instalação normal
+
+
+## Instalando NodeJS
+
+1. Baixar instalador 
+```
+$ https://nodejs.org/dist/v12.16.3/node-v12.16.3-x64.msi
+```
+
+2. Instalação padrão
+
+
+## Instalação Chromedriver
+
+1. Executar os seguintes comandos no prompt de comando escolhido:
+
+```
+$ npm config set strict ssl false
+```
+```
+$ npm install -g chromedriver
+```
+
+2. Baixar instalador do Chromedriver correspondente à versão do Chrome da sua máquina 
+
+```
+$ https://chromedriver.chromium.org/downloads
+```
+
+3. Extrair o .zip e adicionar o arquivo .exe no diretório "C:\{versão_do_ruby}\bin"
+
+
+## Passos para rodar projeto e cenário
 
 
  1. Clonando o repositório
@@ -43,10 +88,12 @@ $ bundle install --jobs 8
     - Buscar um produto;
     - Adicionar o produto no carrinho.
 
-Depois de todos os pacotes serem instalados corretamente, podemos executar a interface de testes:
+Depois de todos os pacotes serem instalados corretamente, podemos executar a interface de testes, via linha de comando, no PATH da raiz do projeto:
 ```
 $ cucumber -t @adicionar_produto
 ```
+
+
 
 ***
 
