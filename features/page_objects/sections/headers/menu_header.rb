@@ -10,12 +10,12 @@ module Sections
           end
 
           def clica_categoria(categoria)
-            wait_for_categorias
+            wait_until_categorias_visible
             categorias&.find { |c| c.text.match(/#{categoria}/i) }&.click
           end
 
           def hover_categoria(categoria)
-            wait_for_categorias
+            wait_until_categorias_visible
             categorias&.find { |c| c.text.match(/#{categoria}/i) }&.hover
           end
           

@@ -12,12 +12,12 @@ module Pages
           end
 
           def get_pontos
-            wait_for_pontos
+            wait_until_pontos_visible
             pontos.text
           end
 
           def adicionar_ao_carrinho
-            wait_for_btn_add_carrinho
+            wait_until_btn_add_carrinho_visible
             btn_add_carrinho.click
           end
 

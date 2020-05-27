@@ -8,12 +8,12 @@ module Sections
         element :pontos, 'span[id^="total-"]'
 
         def get_link
-            wait_for_link
+            wait_until_link_visible
             link[:href].split('?').first
         end
 
         def get_pontos
-            wait_for_pontos
+            wait_until_pontos_visible
             pontos.text.split(' ').first
         end
 
